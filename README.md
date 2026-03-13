@@ -34,7 +34,7 @@ Follow the cells iteratively to see data preprocessing, visual plots comparing T
 ### 2. Streamlit Dashboard (Bonus)
 To explore the high-level findings interactively:
 ```bash
-streamlit run app.py
+/opt/anaconda3/bin/python -m streamlit run "app.py"
 ```
 This will open up a local server (typically at `http://localhost:8501`) displaying:
 - Metrics filtered by sentiment
